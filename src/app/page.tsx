@@ -381,7 +381,7 @@ export default function Home() {
         {/* Gradient Pill Section */}
         <section className="relative -mx-32 pt-10 overflow-visible flex gap-2">
           {/* Colorful Gradient Pill */}
-          <div className="w-[400px] h-50 rounded-r-full overflow-hidden relative">
+          <div className="w-[400px] h-30 rounded-r-full overflow-hidden relative">
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 opacity-90">
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-white/10 to-transparent backdrop-blur-sm">
@@ -389,16 +389,24 @@ export default function Home() {
           </div>
           
           {/* Questions Text with Contact Button */}
-          <div className="w-[1000px] h-50 relative flex items-center justify-between bg-gray-200 dark:bg-[#1f1f1f] rounded-full overflow-hidden">
-            <p className="font-bold text-gray-800 dark:text-white text-5xl pl-8 pr-4 flex items-center gap-8" style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+          <div className="w-[700px] h-30 relative flex items-center justify-between bg-gray-200 dark:bg-[#1f1f1f] rounded-full overflow-hidden">
+            <p className="font-bold text-gray-800 dark:text-white text-4xl pl-8 pr-4 flex items-center gap-8" style={{ fontFamily: 'Inter Tight, sans-serif' }}>
               Still have questions?
-              <button className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-6 rounded-full flex items-center gap-2 transition-colors">
+              <button className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-1 px-6 rounded-full flex items-center gap-2 transition-colors">
                 Contact Us
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
             </p>          </div>
+            <section className="relative -mr-32 gap-2">
+             <div className="w-[400px] h-30 rounded-l-full overflow-hidden relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 opacity-90">
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-r from-white/10 to-transparent backdrop-blur-sm">
+            </div>
+          </div>
+          </section>
         </section>
       </main>
       <ClientFooter />
